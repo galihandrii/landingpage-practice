@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&family=Nunito+Sans&family=Poppins:ital,wght@0,400;0,500;1,400&family=Rubik:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.navigation{
+    z-index: 1;
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    padding: 5px;
+    gap:260px;
+}
+nav .overview{
+    display: flex;
+    justify-content: flex-start;
+    padding:10px;
+}
+nav .signup {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;;
+}
+nav li img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;;
+       
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: grey;
+    transition: 0.3s;
+}
+/* ====BANNER====*/
+.banner{
+    background:url("https://wingman.mediumra.re/assets/img/graphic-bg-clouds-2.png") ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 750px;
+    
+}
+.banner-set{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+.banner-caption{
+padding-left: 40px;
+}
+.banner-caption h1{
+    font-size: 72px;
+    padding-bottom: 24px;
+}
+.banner-caption p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.875rem;
+    width: 85%;
+}
+label a{
+    text-decoration: none;
+}
+.banner-form{
+    margin-right: 15px;
+    padding: 24px;
+    border-radius: 10px;
+    
+}
+
+/*====FIRST-SECTION====*/
+.meetthefuture-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    border-bottom:  solid 0.1px #ADB5BD;
+    background-color: #f8f9fa;
+}
+.section-top{
+    width: 680px;
+}
+.section-top strong{
+    color: #ADB5BD;
+    font-size: 14px;
+    padding: 0;
+}
+.section-top h1{
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+.section-top p{
+    color: #495057;
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+.video-img{
+    width: 750px;
+    height: 414px;
+    padding: 0px 28px;
+}
+.video-img img{
+    width: 100%;
+    height: 100%;
+}
+.section-bottom{
+    padding-top: 48px;
+}
+.section-bottom strong{
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+.section-bottom p{
+    font-size: 14px;
+    width: 400px;
+    padding-bottom: 16px;
+}
+.section-bottom a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*=====Second Section========*/
+.welcome-home-section{
+    background-color: #f8f9fa;
+}
+.second-section{
+    padding: 72px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    
+}
+.top-second-section strong{
+    font-size: 14px;
+    color: #ADB5BD;
+    padding-bottom: 24px;
+}
+.top-second-section h1{
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+.top-second-section p{
+    font-size: 20px;
+}
+.top-second-section{
+    padding-bottom: 48px;
+    text-align: center;
+    width: 700px;
+}
+.bottom-second-section{
+    height: 500px;
+    display: flex;
+    justify-content:space-around;
+}
+.bottom-img img{
+    width: 100%;
+    height: 100%;
+}
+.bottom-words{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.steps h5{
+    font-size: 20px;
+
+}
+.steps p{
+    font-size: 16px;
+}
+.create-account, .start-project, .deploy{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+
+}
+.create-account{
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.create-account:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px grey;
+    transition: 0.3s;
+}
+.start-project:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px grey;
+    transition: 0.3s;
+}
+ .deploy:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px grey;
+    transition: 0.3s;
+}
+.number{
+    text-align: center;
+    
+}
+.create-account .number h2{
+    background-color: cornflowerblue;
+}
+.number h2{
+    color: white;
+    margin-right: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: #ADB5BD;
+    border-radius: 50%;
+    width:45px ;
+    height:45px ;
+    
+}
+
+
+/*========THIRD SECTION===========*/
+.section-3{
+    height: 550px;
+}
+.synced-top-container h1{
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.synced-top-container p {
+    padding-bottom: 24px;
+    font-size: 20px;
+}
+.section-woman-img{
+    background-image: url(https://wingman.mediumra.re/assets/img/photo-woman-writing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.section-man-img{
+    background-image: url(https://wingman.mediumra.re/assets/img/photo-man-phone.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-synced-container{
+    background-color: white;
+    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.synced-mid-container, .synced-bottom-container{
+    display: flex;
+}
+ion-icon{
+    padding-top: 4px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.synced-bottom-container a{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    z-index: -1;
+    right: 30px;
+}
+
+
+/*=============================SECTION FOUR================================*/
+.case-studies{
+    background-color: #f8f9fa;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.come-conquered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section4-top{
+    width: 55%;
+    text-align: center;
+}
+.section4-top strong{
+    height: 20px;
+    color: #ADB5BD;
+}
+.section4-top h1{
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+.section4-top p{
+    font-size: 20px;
+    padding-bottom: 24px;
+}
+.section4-bottom{
+    width: 100%;
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*========================SECTION FIVE===============================*/
+.section5{
+    padding: 72px 0px;
+}
+.section5-signuptrial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section5-top{
+    padding-bottom: 24px;
+}
+.section5-bottom{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*=============================FOOTER==================================*/
+.footer-section6{
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.footer-left{
+    margin-left: 52px;
+    width: 350px;
+}
+.footer-right{
+    width: 100%;
+}
+.footer-right-bottom{
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+}
+.footer-detail{
+    width: 220px;
+}
+.footer-detail li{
+    list-style: none;
+}
+.footer-detail a{
+    font-size: 14px;
+    position: relative;
+    right:30px ;
+    color: #ADB5BD;
+    text-decoration: none;
+}
+.footer-detail a:hover{
+    color:white
+}
+
+/*=============================BUTTON================================*/
+
